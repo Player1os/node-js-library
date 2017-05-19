@@ -2,8 +2,8 @@ import {
 	assert,
 } from 'chai'
 
-describe('Suite', () => {
-	it('test', () => {
-		assert(false)
+describe('Test suite', () => {
+	it('Test instance', () => {
+		assert(false, 'No tests are configured')
 	})
 })
