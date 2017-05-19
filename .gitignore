@@ -10,5 +10,5 @@ pm2.json
 node_modules/*
 npm-debug.log*
 
-# Build files.
+# Build generated files.
 lib/*
