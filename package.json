@@ -4,11 +4,14 @@
   "description": "A base package from which other packages can be derived",
   "main": "lib/index.js",
   "scripts": {
+    "preversion": "npm run lint && npm test && npm run build && npm run task:git:merge_into_master",
+    "postversion": "git push && git push --tags",
     "build": "webpack",
     "lint": "tslint {./,src/**/,task/**/,test/**/}*.ts --type-check --project ./tsconfig.json",
-    "prepublish": "npm run lint && npm test && npm run build",
     "start": "ts-node -r module-alias/register src/index.ts",
     "start:build": "node lib/index.js",
+    "task": "ts-node -r module-alias/register task/index.ts",
+    "task:git:merge_into_master": "npm run task -- git/merge_into_master",
     "test": "mocha --compilers ts:ts-node/register -r module-alias/register test/index.test.ts"
   },
   "repository": {
