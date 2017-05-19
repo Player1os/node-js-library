@@ -4,9 +4,11 @@
   "description": "A base package from which other packages can be derived",
   "main": "lib/index.js",
   "scripts": {
+    "start": "ts-node -r module-alias/register src/index.ts",
+    "start:build": "node lib/index.js",
     "build": "webpack",
     "prepublish": "npm test && npm run build",
-    "test": "mocha -r ts-node/register test/index.test.ts"
+    "test": "mocha --compilers ts:ts-node/register -r module-alias/register test/index.test.ts"
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,7 @@
     "babel-preset-env": "^1.4.0",
     "chai": "^3.5.0",
     "mocha": "^3.4.1",
+    "module-alias": "^2.0.0",
     "ts-loader": "^2.0.3",
     "ts-node": "^3.0.4",
     "tslint": "^5.2.0",
@@ -39,5 +42,8 @@
     "tsutils": "=1.6.0",
     "typescript": "^2.3.2",
     "webpack": "^2.5.1"
+  },
+  "_moduleAliases": {
+    "#": "."
   }
 }
