@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A base package from which other packages can be derived",
   "main": "lib/index.js",
+  "engines": {
+    "node": "~6.9.3",
+    "npm": "~3.10.10"
+  },
   "scripts": {
     "preversion": "npm run lint && npm test && npm run build && npm run task:git:merge_into_master",
     "postversion": "git push && git push --tags",
