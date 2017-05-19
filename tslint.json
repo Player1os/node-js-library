@@ -6,6 +6,9 @@
 	"jsRules": {
 	},
 	"rules": {
+		"align": [
+			false
+		],
 		"callable-types": true,
 		"class-name": true,
 		"comment-format": [
