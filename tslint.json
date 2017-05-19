@@ -38,6 +38,7 @@
 		"no-empty": false,
 		"no-empty-interface": true,
 		"no-eval": true,
+		"no-increment-decrement": false,
 		"no-inferrable-types": [
 			true,
 			"ignore-params"
