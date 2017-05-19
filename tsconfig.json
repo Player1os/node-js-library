@@ -1,9 +1,9 @@
 {
 	"compilerOptions": {
 		"module": "commonjs",
-		"moduleResolution": "classic",
 		"target": "es2017",
 		"allowJs": true,
+		"noImplicitAny": false,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"typeRoots": [
