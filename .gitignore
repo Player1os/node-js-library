@@ -2,9 +2,6 @@
 .DS_Store
 Thumbs.db
 
-# IDEs configuration files.
-.vscode/*
-
 # Config files file.
 .env
 pm2.json
