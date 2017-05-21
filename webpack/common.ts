@@ -35,6 +35,10 @@ export default {
 				test: /\.ts$/,
 				exclude: /node_modules/,
 				loader: 'awesome-typescript-loader',
+				options: {
+					declaration: true,
+					declarationDir: 'build/types',
+				},
 			},
 		],
 	},

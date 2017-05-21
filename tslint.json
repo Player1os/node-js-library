@@ -73,7 +73,10 @@
 		],
 		"ter-indent": [
 			true,
-			"tab"
+			"tab",
+			{
+				"SwitchCase": 1
+			}
 		],
 		"triple-equals": true,
 		"typedef-whitespace": [

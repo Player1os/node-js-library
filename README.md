@@ -27,7 +27,7 @@ All tasks are defined in as npm scripts:
 
 It is is recommended to run the following scripts in seperate windows during development:
 1. `npm run build:lib:watch`
-2. `npm run build:lib:test`
+2. `npm run build:test:watch`
 3. `npm run lint:watch`
 4. `npm run test:watch`
 
@@ -42,3 +42,4 @@ Follow these instructions, when a new version is ready to be published:
 
 - Add NYC code coverage.
 - Minify and obfuscate the bundle code.
+- Correctly setup the vscode launch configuration.

@@ -2,6 +2,7 @@
 .vscode/
 build/
 src/
+task/
 test/
 webpack/
 .babelrc
