@@ -1,4 +1,9 @@
+.awcache/
+.vscode/
+build/
 src/
+test/
+webpack/
 .babelrc
 .editorconfig
 .gitattributes
@@ -6,4 +11,3 @@ src/
 .node-version
 tsconfig.json
 tslint.json
-webpack.config.ts

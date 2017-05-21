@@ -19,6 +19,7 @@
 		"eofline": true,
 		"forin": true,
 		"interface-over-type-literal": true,
+		"import-name" : false,
 		"label-position": true,
 		"max-line-length": [
 			true,
