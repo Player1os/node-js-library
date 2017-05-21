@@ -47,6 +47,7 @@
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-preset-env": "^1.4.0",
+    "bluebird": "^3.5.0",
     "chai": "^3.5.0",
     "chokidar": "^1.7.0",
     "git-rev": "^0.2.1",
@@ -61,9 +62,6 @@
     "typescript": "^2.3.2",
     "uglify-js": "^3.0.10",
     "webpack": "^2.5.1"
-  },
-  "dependencies": {
-    "bluebird": "^3.5.0"
   },
   "_moduleAliases": {
     "#": "."

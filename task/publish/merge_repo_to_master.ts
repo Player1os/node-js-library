@@ -2,11 +2,11 @@
 import spawnProcessPromise from 'spawn-process-promise'
 
 // Load npm modules.
-import * as Promise from 'bluebird'
-import git from 'git-rev'
+import * as Bluebird from 'bluebird'
+import gitRev from 'git-rev'
 
 // Promisify callback methods.
-const gitBranchAsync = Promise.promisify(git.branch)
+const gitBranchAsync = Bluebird.promisify(gitRev.branch)
 
 // Define the asynchronous task.
 const execute = async () => {
