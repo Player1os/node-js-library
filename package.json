@@ -9,7 +9,7 @@
     "npm": "~3.10.10"
   },
   "scripts": {
-    "preversion": "npm run lint && npm run build && npm test && publish:copy_to_lib && npm run publish:merge_repo_to_master",
+    "preversion": "npm run lint && npm run build && npm test && npm run publish:copy_to_lib && npm run publish:merge_repo_to_master",
     "postversion": "git push && git push --tags",
     "build": "npm run build:lib && npm run build:test",
     "build:lib": "webpack --config webpack/lib.ts",
