@@ -43,9 +43,6 @@ export default {
 		],
 	},
 	plugins: [
-		new webpack.ProvidePlugin({
-			Promise: 'bluebird',
-		}),
 	],
 	resolve: {
 		// Specify that the '#' character in imports should be resolved to the project's root path.
