@@ -1,6 +1,3 @@
-// Load npm modules.
-import * as webpack from 'webpack'
-
 // Load node modules.
 import * as fs from 'fs'
 import * as path from 'path'
@@ -42,8 +39,6 @@ export default {
 			},
 		],
 	},
-	plugins: [
-	],
 	resolve: {
 		// Specify that the '#' character in imports should be resolved to the project's root path.
 		alias: {
