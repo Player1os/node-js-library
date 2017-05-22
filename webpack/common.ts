@@ -43,13 +43,6 @@ export default {
 		],
 	},
 	plugins: [
-		new webpack.BannerPlugin({
-			banner: [
-				"require('source-map-support').install();",
-			].join('\n'),
-			raw: true,
-			entryOnly: false,
-		}),
 		new webpack.ProvidePlugin({
 			Promise: 'bluebird',
 		}),
