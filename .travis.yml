@@ -1,0 +1,10 @@
+language: node_js
+
+node_js:
+  - "10.6.0"
+
+cache:
+  directories:
+    - "node_modules"
+
+script: npm test && if [ -s ./coverage/lcov.info ]; then ./node_modules/coveralls/bin/coveralls.js < ./coverage/lcov.info; fi

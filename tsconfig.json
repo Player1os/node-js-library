@@ -1,8 +1,23 @@
 {
 	"compilerOptions": {
-		"module": "commonjs",
-		"target": "es2017",
-		"noUnusedLocals": true,
-		"noUnusedParameters": true
-	}
+		"baseUrl": ".",
+		"paths": {
+			"*": [
+				"*"
+			],
+			".../*": [
+				"./*"
+			]
+		},
+		"typeRoots": [
+			"node_modules/@types",
+			"src/@types"
+		]
+	},
+	"exclude": [
+		"@types",
+		"build",
+		"node_modules"
+	],
+	"extends": "./node_modules/@player1os/typescript-support/tsconfig-base.json"
 }

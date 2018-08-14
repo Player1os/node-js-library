@@ -1,13 +1,3 @@
 {
-	"extends": [
-		"tslint:recommended",
-		"tslint-config-airbnb"
-	],
-	"jsRules": {
-	},
-	"rules": {
-		"ter-indent": [true, "tab"],
-		"semicolon": [true, "never"]
-	},
-	"rulesDirectory": []
+	"extends": "./node_modules/@player1os/typescript-support/tslint.json"
 }
