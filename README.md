@@ -4,7 +4,7 @@
 [![NodeJS version](https://img.shields.io/node/v/@player1os/ts-npm-package-template.svg?label=node%20version)](https://nodejs.org/dist/v10.6.0/)
 [![GitHub tag](https://img.shields.io/github/tag/Player1os/ts-npm-package-template.svg?label=version)](https://github.com/Player1os/ts-npm-package-template/releases)
 [![Build Status](https://travis-ci.org/Player1os/ts-npm-package-template.svg?branch=master)](https://travis-ci.org/Player1os/ts-npm-package-template)
-[![Coverage Status](https://img.shields.io/coveralls/github/Player1os/ts-npm-package-template.svg)](https://coveralls.io/github/Player1os/ts-npm-package-template?branch=master)
+[![Coverage Status](https://img.shields.io/coveralls/github/Player1os/ts-npm-package-template.svg)](https://coveralls.io/github/Player1os/ts-npm-package-template?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/Player1os/ts-npm-package-template.svg)](https://greenkeeper.io/)
 
 This project serves as a template for any library compiled to be published in npm and consumed in a NodeJS environment.
 
