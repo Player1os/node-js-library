@@ -1,17 +1,10 @@
-# OS specific files.
-.DS_Store
-Thumbs.db
-
-# IDEs configuration files.
-.vscode/*
-
-# Config files file.
-.env
-pm2.json
+# Build generated files.
+@types
+build
 
 # NPM generated files.
-node_modules/*
+node_modules
 npm-debug.log*
 
-# Build files.
-lib/*
+# Test coverage files.
+coverage
