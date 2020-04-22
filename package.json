@@ -36,6 +36,6 @@
   },
   "devDependencies": {
     "@player1os/typescript-support": "^1.3.9",
-    "coveralls": "^3.0.2"
+    "coveralls": "^3.0.13"
   }
 }
